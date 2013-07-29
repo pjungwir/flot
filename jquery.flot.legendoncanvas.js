@@ -99,7 +99,7 @@
 			posx = x + 22;
 			posy = posy + f.size + 2;
 
-			ctx.fillStyle = options.grid.color;
+			ctx.fillStyle = options.legend.color || options.grid.color;
 			ctx.fillText(label, posx, posy);
 		}
 
